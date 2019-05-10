@@ -1,0 +1,52 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 200%;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 110%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  li {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 0;
+    text-decoration: underline;
+
+    .blue-button {
+      background-color: blue;
+      text-decoration: none !important;
+      color: white;
+      padding: 0.5em;
+      border-radius: 6px;
+      width: 8em;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+}
+
+.signup-form form input[type=submit] {
+  border: none;
+  background-color: blue;
+  text-decoration: none !important;
+  color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
