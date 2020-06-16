@@ -1,53 +1,76 @@
+/* Finish matching site to wireframes. only nav bar, hero. and form sections */
+.hero {
+}
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
-  text-align: center;
   font-size: 200%;
 }
 
 h2 {
-  text-align: center;
   font-weight: 100;
   font-size: 110%;
+}
+
+h1 h2 {
+  text-align: center;
 }
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
 }
 
 nav li {
   display: inline-block;
   margin-top: 0;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 1rem;
+  margin-left: 1rem;
   margin-bottom: 0;
   text-decoration: underline;
 }
+/* block */
 
 .blue-button {
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
-  border-radius: 6px;
+  border-radius: 0.5rem;
   width: 8em;
   text-align: center;
   display: inline-block;
-} 
+}
 
-.signup-form form input[type=submit] {
+.signup form input[type="submit"] {
   border: none;
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 3rem;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.email {
+  border: none;
+
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
 }
